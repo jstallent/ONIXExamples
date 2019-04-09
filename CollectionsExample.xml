@@ -1,0 +1,26 @@
+<!-- The Magician’s Nephew -->
+<Collection>
+	<CollectionType>10</CollectionType><!-- Publisher collection -->
+	<CollectionSequence>
+		<CollectionSequenceType>04</CollectionSequenceType>	<!--Temporal/narrative order-->
+		<CollectionSequenceNumber>1</CollectionSequenceNumber>
+	</CollectionSequence>
+	<CollectionSequence>
+		<CollectionSequenceType>03</CollectionSequenceType>	<!--Publication order-->
+		<CollectionSequenceNumber>6</CollectionSequenceNumber>
+	</CollectionSequence>
+	<TitleDetail>
+		<TitleType>01</TitleType>	<!-- Distinctive title (of collection) -->
+		<TitleElement>
+			<SequenceNumber>2</SequenceNumber>
+			<TitleElementLevel>02</TitleElementLevel>	<!-- Title is for the top level of the Collection -->
+			<TitlePrefix>The</TitlePrefix>
+			<TitleWithoutPrefix textcase="02">Chronicles of Narnia</TitleWithoutPrefix>
+		</TitleElement>
+		<TitleElement>
+			<SequenceNumber>3</SequenceNumber>
+			<TitleElementLevel>01</TitleElementLevel>	<!-- Product level -->
+			<PartNumber>1</PartNumber>	<!-- First in collection -->
+		</TitleElement>
+	</TitleDetail>
+</Collection>

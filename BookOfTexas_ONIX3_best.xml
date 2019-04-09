@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXMessage release="3.0">
+	<Header>
+		<Sender>
+			<SenderName>Flashpoint Books</SenderName>
+			<ContactName>Catherine Toolan 978-465-7755</ContactName>
+			<EmailAddress>eloquence@firebrandtech.com</EmailAddress>
+		</Sender>
+		<SentDateTime>20160602</SentDateTime>
+		<MessageNote>Title information from Flashpoint Books</MessageNote>
+		<DefaultLanguageOfText>eng</DefaultLanguageOfText>
+		<DefaultPriceType>01</DefaultPriceType>
+		<DefaultCurrencyCode>USD</DefaultCurrencyCode>
+	</Header>
+
+	<Product> <!-- Print -->
+		<RecordReference>Flashpoint.9783141592641</RecordReference> <!-- ID of the record, not the product -->
+		<NotificationType>03</NotificationType> <!-- Notification confirmed on publication -->
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType> <!-- GTIN-13 -->
+			<IDValue>9783141592641</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType> <!-- ISBN-13 -->
+			<IDValue>9783141592641</IDValue>
+		</ProductIdentifier>
+		<Barcode> 	<!--required for physical products-->
+			<BarcodeType>02</BarcodeType> <!-- GTIN-13 -->
+			<PositionOnProduct>00</PositionOnProduct> <!-- Back cover -->
+		</Barcode>
+		<DescriptiveDetail>
+			<ProductComposition>00</ProductComposition>
+			<ProductForm>BB</ProductForm> <!-- Hardback -->
+			<ProductFormDetail>B401</ProductFormDetail> <!-- Cloth over boards -->
+			<ProductFormFeature>
+				<ProductFormFeatureType>01</ProductFormFeatureType> <!-- Color of cover -->
+				<ProductFormFeatureValue>GRN</ProductFormFeatureValue> <!-- Green -->
+			</ProductFormFeature>
+			<ProductFormDescription>Hardcover</ProductFormDescription>
+			<Measure>
+			    <MeasureType>01</MeasureType>
+			    <Measurement>9.75</Measurement> <!-- 9 3/4 inches -->
+			    <MeasureUnitCode>in</MeasureUnitCode>
+			</Measure>
+			<Measure>
+			    <MeasureType>02</MeasureType>
+			    <Measurement>6.625</Measurement> <!-- 6 5/8 inches -->
+			    <MeasureUnitCode>in</MeasureUnitCode>
+			</Measure>
+			<Measure>
+			    <MeasureType>03</MeasureType>
+			    <Measurement>1.875</Measurement> <!-- 1 7/8 inches -->
+			    <MeasureUnitCode>in</MeasureUnitCode>
+			</Measure>
+			<Measure>
+			    <MeasureType>08</MeasureType>
+			    <Measurement>39.6</Measurement> <!-- 39.6 ounces -->
+			    <MeasureUnitCode>oz</MeasureUnitCode>
+			</Measure>
+			<Measure>
+			    <MeasureType>01</MeasureType>
+			    <Measurement>248</Measurement> <!-- 248mm -->
+			    <MeasureUnitCode>mm</MeasureUnitCode>
+			</Measure>
+			<Measure>
+			    <MeasureType>02</MeasureType>
+			    <Measurement>168</Measurement> <!-- 168mm -->
+			    <MeasureUnitCode>mm</MeasureUnitCode>
+			</Measure>
+			<Measure>
+			    <MeasureType>03</MeasureType>
+			    <Measurement>16</Measurement> <!-- 48mm -->
+			    <MeasureUnitCode>mm</MeasureUnitCode>
+			</Measure>
+			<Measure>
+			    <MeasureType>08</MeasureType>
+			    <Measurement>1122</Measurement> <!-- 1122g -->
+			    <MeasureUnitCode>gr</MeasureUnitCode>
+			</Measure>
+			<NoCollection/> <!-- Not part of a collection -->
+			<TitleDetail> <!-- Title of the book -->
+				<TitleType>01</TitleType>
+				<TitleElement>
+					<TitleElementLevel>01</TitleElementLevel>
+					<TitlePrefix>The</TitlePrefix>
+					<TitleWithoutPrefix>Book of Texas</TitleWithoutPrefix>
+				</TitleElement>
+			</TitleDetail>
+			<Contributor>
+				<SequenceNumber>1</SequenceNumber> <!-- First contributor -->
+				<ContributorRole>A01</ContributorRole> <!-- Author -->
+				<NameIdentifier>
+					<NameIDType>16</NameIDType>	<!-- ISNI -->
+					<IDValue>0000000083795662</IDValue>
+				</NameIdentifier>
+				<PersonName>John Avery Lomax</PersonName>
+				<PersonNameInverted>Lomax, John Avery</PersonNameInverted>
+				<TitlesBeforeNames>Mr.</TitlesBeforeNames>
+				<NamesBeforeKey>John Avery</NamesBeforeKey>
+				<KeyNames>Lomax</KeyNames>
+				<ContributorDate>
+					<ContributorDateRole>50</ContributorDateRole>	<!-- Born -->
+					<Date>18670923</Date>
+				</ContributorDate>
+				<ContributorDate>
+					<ContributorDateRole>51</ContributorDateRole>	<!-- Died -->
+					<Date>19480126</Date>
+				</ContributorDate>
+				<BiographicalNote><p>John Avery Lomax, folklorist, the son of James Avery and Susan Frances (Cooper) Lomax, was born on September 23, 1867, in Goodman, Mississippi. In August 1869 the Lomaxes set out for Texas in two covered wagons. They arrived in Bosque County before Christmas and settled on a farm north of Meridian. Young Lomax learned to do farm work and attended short terms of school between crops. As his home was located on a branch of the Chisholm Trail, he heard many cowboy ballads and other folk songs; before he was twenty, he began to write some of them down. In 1887 he had a year at Granbury College. With that training he taught for a year at Clifton and for six years at Weatherford College; he spent a summer in study at Eastman Business College at Poughkeepsie, New York, and three summers at Chautauqua. In 1895 he enrolled at the University of Texas, from which he graduated in 1897. He remained at the university as secretary to the president, as registrar, and as steward of the men&#x2019;s dormitory. In 1903&#x2013;04 he taught English at Texas A&amp;M. On June 9, 1904, he married Bess B. Brown; they had two sons and two daughters.</p><p>In 1906 Lomax received a scholarship at Harvard University, where Barrett Wendell and George Lyman Kittredge encouraged him to take up seriously the collection of western ballads he had begun as a youth. He collected by means of an appeal published in western newspapers and through his own vacation travel, supported by private funds from the two Harvard professors. In the back room of the White Elephant Saloon in Fort Worth he found cowhands who knew many stanzas of &#x201c;The Old Chisholm Trail.&#x201d; A Gypsy woman living in a truck near Fort Worth sang &#x201c;Git Along, Little Dogies.&#x201d; At Abilene an old buffalo hunter gave him the words and tune of &#x201c;Buffalo Skinners.&#x201d; In San Antonio in 1908 a black saloonkeeper who had been a trail cook sang &#x201c;Home on the Range.&#x201d; Lomax&#x2019;s first collection, <cite>Cowboy Songs and Other Frontier Ballads</cite>, was published in 1910.</p><p>From 1910 to 1925 Lomax was secretary of the Alumni Association, which became the Ex-Students Association of the University of Texas, except for two years, 1917&#x2013;19, when he was a bond salesman in Chicago. He was active in the fight to save the university from political domination by James E. Ferguson. From 1925 until 1931 he was vice president of Republic National Company in Dallas. His first wife died on May 8, 1931, and on July 21, 1934, he married Ruby R. Terrill. Lomax was one of the founders of the Texas Folklore Society and was president of the American Folklore Society.</p><p>In his collecting of folk songs, he traveled 200,000 miles and visited all but one of the forty-eight states. Often accompanied by his son, Alan, he visited prisons to record on phonograph disks the work songs and spirituals of black inmates. At the Angola prison farm in Louisiana, he encountered a talented black minstrel, Huddie Ledbetter, better known as Lead Belly. Upon Lead Belly&#x2019;s release from prison, Lomax took him on a tour in the north and recorded many of his songs. In 1919 he published <cite>Songs of the Cattle Trail and Cow Camp</cite>; it was republished in 1927 and in 1931. With his son, Lomax edited other collections: <cite>American Ballads and Folk Songs</cite> (1934), <cite>Negro Songs as Sung by Lead Belly</cite> (1936), <cite>Our Singing Country</cite> (1941), and <cite>Folk Song: U.S.A.</cite> (1947). In 1947 his autobiographical <cite>Adventures of a Ballad Hunter</cite> (1947) was awarded the Carr P. Collins prize as the best Texas book of the year by the Texas Institute of Letters. Beginning in 1933 Lomax was honorary curator of the Archive of Folksong at the Library of Congress, which he helped establish as the primary agency for preservation of American folksongs and culture. He died at Greenville, Mississippi, on January 26, 1948. He was inducted into the Western Music Hall of Fame in 2010.</p></BiographicalNote> 	<!-- Note the use of XHTML -->
+				<Website>
+					<WebsiteRole>09</WebsiteRole> <!-- Third-party website -->
+					<WebsiteDescription>Historical and biographical information about the author</WebsiteDescription>
+					<WebsiteLink>https://en.wikipedia.org/wiki/John_Lomax</WebsiteLink>
+				</Website>
+				<ContributorPlace>
+					<ContributorPlaceRelator>01</ContributorPlaceRelator> <!--Born in-->
+					<RegionCode>US-MS</RegionCode>
+				</ContributorPlace>
+				<ContributorPlace>
+					<ContributorPlaceRelator>02</ContributorPlaceRelator> <!--Died in-->
+					<RegionCode>US-MS</RegionCode>
+				</ContributorPlace>
+				<ContributorPlace>
+					<ContributorPlaceRelator>03</ContributorPlaceRelator> <!--Formerly resided in-->
+					<RegionCode>US-TX</RegionCode>
+				</ContributorPlace>
+			</Contributor>
+			<Contributor>
+				<SequenceNumber>2</SequenceNumber>	<!-- Second Contributor -->
+				<ContributorRole>A01</ContributorRole>	<!-- Author -->
+				<NameIdentifier>
+					<NameIDType>16</NameIDType>	<!--ISNI-->
+					<IDValue>0000000388284820</IDValue>
+				</NameIdentifier>
+				<PersonName>Harry Yandell Benedict</PersonName>
+				<PersonNameInverted>Benedict, Harry Yandell</PersonNameInverted>
+				<TitlesBeforeNames>Dr.</TitlesBeforeNames>
+				<NamesBeforeKey>Harry Yandell</NamesBeforeKey>
+				<KeyNames>Benedict</KeyNames>
+				<LettersAfterNames>Ph.D.</LettersAfterNames>
+				<ContributorDate>
+					<ContributorDateRole>50</ContributorDateRole>	<!-- Born -->
+					<Date>18691114</Date>
+				</ContributorDate>
+				<ContributorDate>
+					<ContributorDateRole>51</ContributorDateRole>	<!-- Died -->
+					<Date>19370510</Date>
+				</ContributorDate>
+				<ProfessionalAffiliation>
+					<ProfessionalPosition>President</ProfessionalPosition>
+					<Affiliation>University of Texas</Affiliation>
+				</ProfessionalAffiliation>
+				<BiographicalNote><p>Harry Yandell Benedict, tenth president of the University of Texas, was born in Louisville, Kentucky, on November 14, 1869, the son of Joseph and Adele (Peters) Benedict. In 1877 his mother, with Yandell and his brother Carl, moved to Texas to occupy land acquired during the Republic of Texas era by her grandfather, S. W. Peters, on the Brazos River in Young and Stephens counties; with them came Adele Benedict&#x2019;s father, H. J. Peters. Young Yandell was taught by his well-educated mother at home except for eight months when he attended schools in Graham and Weatherford. The family had a library of 1,000 books brought by the Peters family from Kentucky.</p><p>Benedict entered the University of Texas on examination in February 1889 and graduated with a B.S. with first honors in civil engineering in 1892. He received his M.A. in 1893. While completing his work at the university, he was a fellow (1891&#x2013;92) and a tutor (1892&#x2013;93) in pure mathematics. From 1893 to 1895 he served as an assistant at the McCormick Observatory at the University of Virginia. For the next three years (1895&#x2013;98), he studied at Harvard, where he received his Ph.D. in mathematical astronomy in 1898. He was in charge ad interim of mathematics and astronomy at Vanderbilt University in 1899. In 1900 he married Ada Stone of Henderson, Texas. They had two sons.</p><p>Benedict joined the faculty of the University of Texas at the beginning of the 1899&#x2013;1900 session as instructor of mathematics. He rose rapidly in rank until he became professor of applied mathematics and astronomy in 1907. He served as director of extension from 1909 to 1911. In 1911 he was made dean of the College of Arts and Sciences, a position he kept until 1927, when he was elected president. From 1913 until 1920 he also served as dean of men. He was president from 1927 until his death. During his presidency an extensive building program added fifteen new buildings to the campus. His dream was to see the completion of the University of Texas McDonald Observatory, but he died two years before it opened. He wrote <cite>Book of Texas</cite> with John A. Lomax (1916), <cite>Unified Mathematics</cite> with two other mathematicians (1915), <cite>A Source Book of Legislative History of the University of Texas</cite> (1917), <cite>Peregrinusings</cite> (1924), and numerous articles.</p><p>He was a fellow of the American Association for the Advancement of Science, a president of the Texas Academy of Scienceqv, and a member of the American Mathematical Society, the American Astronomical Society, the National Education Association, the Texas State Teachers Association, the Society for the Promotion of Engineering Education, the American Statistical Association, Phi Beta Kappa, Tau Beta Pi, the Fortnightly Club, Town and Gown, the Rotary Club, the University Club, and Sigma Alpha Epsilon fraternity. He was a Democrat. Benedict was granted honorary doctor of laws degrees by Baylor in 1920 and Southwestern in 1929. He died suddenly of a cerebral hemorrhage on May 10, 1937. At the time, he was working on a history of the University of Texas; the unfinished manuscript is in the university archives. Benedict was buried in Oakwood Cemetery. Benedict Hall, on the UT campus, named in his honor, was dedicated in April 1953.</p></BiographicalNote>
+				<Website>
+					<WebsiteRole>09</WebsiteRole> <!-- Third-party website -->
+					<WebsiteDescription>Biographical information about the author</WebsiteDescription>
+					<WebsiteLink>http://www.utexas.edu/faculty/council/2000-2001/memorials/AMR/Benedict/benedict.html</WebsiteLink>
+				</Website>
+				<ContributorPlace>
+					<ContributorPlaceRelator>01</ContributorPlaceRelator> <!--Born in-->
+					<RegionCode>US-KY</RegionCode>
+				</ContributorPlace>
+				<ContributorPlace>
+					<ContributorPlaceRelator>02</ContributorPlaceRelator> <!--Died in-->
+					<RegionCode>US-TX</RegionCode>
+				</ContributorPlace>
+				<ContributorPlace>
+					<ContributorPlaceRelator>03</ContributorPlaceRelator> <!--Formerly resided in-->
+					<RegionCode>US-TX</RegionCode>
+				</ContributorPlace>
+			</Contributor>
+			<NoEdition/>
+			<Language>
+				<LanguageRole>01</LanguageRole>
+				<LanguageCode>eng</LanguageCode>
+			</Language>
+			<Extent>
+				<ExtentType>03</ExtentType>	<!-- Front matter pages -->
+				<ExtentValue>23</ExtentValue>	<!-- In Arabic numerals -->
+				<ExtentValueRoman>xxiii</ExtentValueRoman>	<!-- In Roman numerals -->
+				<ExtentUnit>03</ExtentUnit>	<!-- Pages -->
+			</Extent>
+			<Extent>
+				<ExtentType>00</ExtentType>	<!-- Main content pages -->
+				<ExtentValue>448</ExtentValue>
+				<ExtentUnit>03</ExtentUnit>
+			</Extent>
+			<Extent>
+				<ExtentType>12</ExtentType>	<!-- Additional pages (plate inserts) -->
+				<ExtentValue>66</ExtentValue>
+				<ExtentUnit>03</ExtentUnit>
+			</Extent>
+			<Extent>
+				<ExtentType>11</ExtentType> <!-- Total content page count -->
+				<ExtentValue>537</ExtentValue>
+				<ExtentUnit>03</ExtentUnit>
+			</Extent>
+			<Illustrated>02</Illustrated> <!-- Yes -->
+			<NumberOfIllustrations>89</NumberOfIllustrations>
+			<IllustrationsNote>89 black-and-white photos on separate plate inserts, 12 maps, 25 tables, 2 charts</IllustrationsNote> <!-- full text, under 200 characters -->
+			<AncillaryContent>
+				<AncillaryContentType>23</AncillaryContentType> <!-- List 25 - Plates, black and white -->
+				<Number>33</Number>
+			</AncillaryContent>
+			<AncillaryContent>
+				<AncillaryContentType>01</AncillaryContentType> <!-- Illustrations, black and white -->
+				<Number>89</Number>
+			</AncillaryContent>
+			<AncillaryContent>
+				<AncillaryContentType>07</AncillaryContentType> <!-- Tables, black and white -->
+				<Number>25</Number>
+			</AncillaryContent>
+			<AncillaryContent>
+				<AncillaryContentType>14</AncillaryContentType> <!-- Maps -->
+				<Number>12</Number>
+			</AncillaryContent>
+			<Subject>
+				<MainSubject/>
+				<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier> <!-- BISAC Subject Category -->
+				<SubjectCode>HIS036130</SubjectCode> <!-- HISTORY  / United States/State and Local/Southwest (AZ, NM, OK, TX) -->
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier> <!-- BISAC Subject Category -->
+				<SubjectCode>HIS052000</SubjectCode> <!-- HISTORY  / Historical Geography -->
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier> <!-- BISAC Subject Category -->
+				<SubjectCode>POL020000</SubjectCode> <!-- POLITICAL SCIENCE  / American Government/State -->
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier> <!-- BISAC Subject Category -->
+				<SubjectCode>NAT049000</SubjectCode> <!-- NATURE  / Regional -->
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>93</SubjectSchemeIdentifier> <!-- Thema Subject Category -->
+				<SubjectCode>NHK</SubjectCode> <!-- History of the Americas -->
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>93</SubjectSchemeIdentifier> <!-- Thema Subject Category -->
+				<SubjectCode>NHTP</SubjectCode> <!-- Historical geography -->
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>93</SubjectSchemeIdentifier> <!-- Thema Subject Category -->
+				<SubjectCode>NHTR</SubjectCode> <!-- National liberation & independence, post-colonialism -->
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>94</SubjectSchemeIdentifier> <!-- Thema geographical qualifier -->
+				<SubjectCode>1KBB-US-SWT</SubjectCode> <!-- Texas -->
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>96</SubjectSchemeIdentifier> <!-- Thema time period qualifier -->
+				<SubjectCode>3MN</SubjectCode> <!-- 19th century, c 1800 to c 1899 -->
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>20</SubjectSchemeIdentifier> <!-- Keywords -->
+				<SubjectHeadingText>Texas History;Stephen F. Austin;William B. Travis;Texas population density;The Alamo</SubjectHeadingText>
+			</Subject>
+			<Audience>
+				<AudienceCodeType>01</AudienceCodeType> <!-- 01 Points to List 28 - ONIX audience codes -->
+				<AudienceCodeValue>01</AudienceCodeValue> <!-- General Trade -->
+			</Audience>
+			<AudienceRange>
+				<AudienceRangeQualifier>11</AudienceRangeQualifier> <!-- US school grade range -->
+				<AudienceRangePrecision>03</AudienceRangePrecision> <!-- From -->
+				<AudienceRangeValue>9</AudienceRangeValue> <!-- grade 9 -->
+				<AudienceRangePrecision>04</AudienceRangePrecision> <!-- To -->
+				<AudienceRangeValue>12</AudienceRangeValue> <!-- Grade 12 -->
+			</AudienceRange>
+			<AudienceRange>
+				<AudienceRangeQualifier>17</AudienceRangeQualifier> <!-- Interest age, years -->
+				<AudienceRangePrecision>03</AudienceRangePrecision> <!-- From -->
+				<AudienceRangeValue>18</AudienceRangeValue> <!-- age 18 -->
+			</AudienceRange>
+			<AudienceRange>
+				<AudienceRangeQualifier>18</AudienceRangeQualifier> <!-- Reading age, years -->
+				<AudienceRangePrecision>03</AudienceRangePrecision> <!-- From -->
+				<AudienceRangeValue>15</AudienceRangeValue> <!-- age 15 -->
+			</AudienceRange>
+			<Complexity>
+				<ComplexitySchemeIdentifier>06</ComplexitySchemeIdentifier> <!-- Lexile measure -->
+				<ComplexityCode>1370L</ComplexityCode>
+			</Complexity>
+		</DescriptiveDetail>
+		<CollateralDetail>
+			<TextContent>
+				<TextType>03</TextType> <!-- Description -->
+				<ContentAudience>00</ContentAudience>
+				<Text><p>The Book of Texas is an in-depth exploration of the great state, including details on its history, demographics, geography, climate, agriculture, manufacturing, industry, and more. The text contains a variety of illustrations, charts, and graphs, along with photos of key locations and people in the state.</p><p>Written for the general reader, this book makes no pretence to avoid colloquialisms or to be serious throughout. Jokes and stories that throw light upon Texas and her people have been freely inserted. But nothing of a humorous flavor has been put in for its own sake only, because, as far as may be accomplished within the narrow compass of a single volume, an earnest effort has here been made to describe Texas. As a consequence, the following pages abound in statements of fact. This book is less than a scientific and detailed treatise; on the other hand, let us hope, it is more than a collection of random remarks made by superficial and facetious observers.</p><p>That perfect truth has been attained in stating facts is not to be expected. The subject is so vast and varied, the sources of information are so numerous and scattered, and in cases so unreliable, that mistakes and omissions are practically unavoidable. Doubtless many specific errors may be discovered in what follows; doubtless some matters have been given too much space and others too little. In spite of defects all too obvious, in spite of having been written from the biased standpoint of Texans, this book has been prepared with very careful attention to Things as They Are. It is possible to hope, therefore, that Texas has been described, inadequately of course, but with reasonable faithfulness.</p></Text>
+			</TextContent>
+			<TextContent>
+				<TextType>02</TextType> <!-- Short Description -->
+				<ContentAudience>00</ContentAudience>
+				<Text><p>The Book of Texas is an in-depth exploration of the great state, including details on its history, demographics, geography, climate, agriculture, manufacturing, industry, and more. The text contains a variety of illustrations, charts, and graphs, along with photos of key locations and people in the state.</p></Text>
+			</TextContent>
+			<TextContent>
+				<TextType>12</TextType> <!-- Author Bios -->
+				<ContentAudience>00</ContentAudience>
+				<Text><p>John Avery Lomax (September 23, 1867 &#x2013; January 26, 1948) was an American teacher, a pioneering musicologist, and a folklorist who did much for the preservation of American folk music.</p><p>Harry Yandell Benedict (November 14, 1869 &#x2013; May 10, 1937) was a professor of applied mathematics and astronomy at the University of Texas and later became the university&#x2019;s tenth president.</p></Text>
+			</TextContent>
+			<TextContent>
+				<TextType>04</TextType>	<!-- Table of Contents -->
+				<ContentAudience>00</ContentAudience>	<!-- Any audience -->
+				<Text textformat="05">
+					<ol>
+						<li>Preface</li>
+						<li>Introduction</li>
+						<li>Part I. The Annals of a State
+						<ol>
+							<li>I. Under Spain and France</li>
+							<li>II. The Coming of the People</li>
+							<li>III. Peaceful Development</li>
+						</ol></li>
+						<li>Part II. The People
+						<ol>
+							<li>I. Their Number and Destribution</li>
+							<li>II. Their Nationality and Characteristics</li>
+						</ol></li>
+						<li>Part III. The Country
+						<ol>
+							<li>The Land</li>
+							<li>The Climate</li>
+							<li>The Wild Life</li>
+						</ol></li>
+						<li>Part IV. The Work of the People with the Products of the Land
+						<ol>
+							<li>Occupations</li>
+							<li>Agriculture</li>
+							<li>King Cotton</li>
+							<li>From Corn to Cauliflowers</li>
+							<li>Texas Cattle in Free-grass Days</li>
+							<li>From Horses to Bees</li>
+							<li>Turning the Waters</li>
+							<li>Mining</li>
+							<li>Manufacturing</li>
+							<li>Transportation</li>
+							<li>The Trade of the Cities</li>
+							<li>Exports and Imports</li>
+							<li>The Material Wealth of Texas</li>
+						</ol></li>
+						<li>Part V. Progress and Its Problems
+						<ol>
+							<li>Banking</li>
+							<li>The Granger Movement</li>
+							<li>Farm Tenantry</li>
+							<li>Community Life</li>
+							<li>The Cities and Towns</li>
+							<li>Education</li>
+							<li>The Churches</li>
+							<li>The Newspapers</li>
+							<li>Union Labor and Life Insurance</li>
+							<li>Prohibition and Local Option</li>
+							<li>Women&#x2019;s Organizations</li>
+							<li>The Case of the Railroads</li>
+							<li>Politics and Political Leaders</li>
+						</ol></li>
+						<li>Appendix</li>
+					</ol>
+				</Text>
+			</TextContent>
+			<TextContent>
+				<TextType>14</TextType> <!-- Excerpt -->
+				<ContentAudience>00</ContentAudience>
+				<Text><h1>Chapter I. Under Spain and France</h1>
+					<p>One hundred years ago there was scarcely a handful of white men in that section of North America now known as Texas, and these were not permanent settlers. The entire region was virgin soil populated only by Indians and a few Spanish soldiers, and overrun by wild cattle, mustang ponies, countless herds of buffalo, deer, antelope, wolves, and other wild animals. The passage of a century has converted the vast region west of the Mississippi into states, Texas alone containing four and a half millions of people and seven billions of wealth. To describe the raw material, the people, and the land; to picture the transformation that has been wrought in Texas during this time, particularly in its important and dramatic aspects; to trace, however inadequately, in small compass the result of the action of the people upon the land and its resources, and the results of the action of the people upon themselves until they have won some individuality and definable characteristics, is what the writers of this volume have undertaken. It is the old and well-known story of man either conquering or adapting himself to the forces of nature.</p>
+					<p>Conventional history is too often inclined to concern itself mainly with dates, wars, and with the names and careers of military and political leaders, together with incidents which have little or nothing to do with the real development of a country. Texas, for example, is perhaps no whit different from what it would have been had La Salle not explored it in early times and died within its confines, or had the Spaniards Cabeza de Vaca and Coronado not wandered over its trackless plains in the early years of the seventeenth century. Even such men as Stephen F. Austin and Sam Houston, however important their place in history, did not make Texas. The destiny of a state is seldom embodied in one man. In the first place, the state is what it is because of the natural conditions that have existed; and, in the second place, because of the general character of the people who have settled within its borders.</p>
+					<p>The records of any historian, however impartial, must nevertheless of necessity seem a form of hero worship. In the history of Texas many individuals stand out above their fellows as superior in bravery, in resourcefulness, and in other qualities of leadership. However hard we try to set down the bare facts, the halo of romance creeps into the story and glorifies such names as La Salle, the restless Frenchman; Coronado, the enterprising Spanish gold hunter; Stephen F. Austin, the patient, unselfish father of a new republic, who died early in life through exposure in her service; Travis, the commander of the group of heroes in the Alamo; General Sam Houston, brave and impassioned leader of men, in defeat taciturn as an Indian; Mirabeau B. Lamar, gifted orator and friend of enlightenment through public education; O. M. Roberts, the &#x201c;Old Alcalde&#x201d; and &#x201c;Pay as You Go&#x201d; Governor, Chief Justice of the Supreme Court, law professor in the University of Texas; John H. Reagan, Postmaster-General of the Confederate Cabinet, Member of Congress, U. S. Senator, first head of the Texas Railroad Commission; James Stephen Hogg, Texas&#x2019; greatest Governor, progressive statesman, and friend of the people; George W. Brackenridge, Henry Rosenberg, and William M. Rice, philanthropists; Henry Exall, evangel of scientific farming; T. V. Munson, honored by the French Government for achievement in grape culture. To the memory of the men who founded colleges in places where the Indian war whoop yet sounded; to those who preached the gospel, who healed the sick, who framed the laws, who cleared the land and blazed the way for the millions who now live between the Rio Grande and Red rivers&#x2014;romance and story and song and drama will yet arise, fit and commensurate.</p>
+					<p>The events that have affected the lives of a people, the difficulties they have overcome, the deeds they have wrought, the battles they have fought, the institutions they have set up&#x2014;all these help us to know what the people are. The annals of a people faithfully recorded make the past live again and show us, if not the people themselves, the results of their actions. So, poring over the story of their brave deeds and peering behind the framework of governmental and social machinery they have invented, inherited, or modified; the record of their war with nature and their clashes with each other, we may come to know something of the real people. The Earth and the People: what the Earth held in store and what the People did with its riches and to each other,&#x2014;these are the vital elements in history, the moving pictures of the past thrown on the screen that enable those of the present to vision what has gone before. Let us see first how Texas was possessed by the white race and by what means the peoples were welded into that semblance of unity which is termed a state.</p>
+					<p>Some of the incidents are mentioned partly because they occurred in Texas territory and not because they influenced the life of the state as it now is. In setting them out we shall consciously emphasize the particular contributions that Texas seems to have made to the sum total of human progress. The general growth of the state has been, on the whole, not unlike that of other Western commonwealths. It does, however, possess some individual characteristics. For example, six different flags have waved over its fortunes, one of them the Lone Star while Texas was for nearly ten years a free and independent republic; her independence was won by a successfully waged revolution; the state has maintained until now a citizen soldiery known as the Texas Rangers. The Railroad Commission, a widely copied homestead law, the commission form of government, a lavish land and bonded endowment for the free public school system, are other illustrative examples of noteworthy contributions. So the story shall be interlarded with references to what Texas has originated, that the narrative may not lose its declared intention of singing the glories of the state.</p>
+					<p>Within thirty-five years after Columbus discovered America the first white man set foot on Texas soil. He belonged to an exploring party of Spaniards, Conquistadores, men of like mold with Cortez and his companions, who sailed from Cuba and were wrecked on the coast off Galveston. Other Spanish gold-hunting bands traversed portions of Texas during the next century and a half, but made no efforts to establish permanent settlements. In 1682 La Salle, a Frenchman, coming down from Canada to the mouth of the Mississippi River, set up a claim to all the land (Louisiana) drained by the river. Later driven west in a storm while he was trying to reach the mouth of the Mississippi from France some of his ships were lost, and the others returned to France. He thereupon built Fort St. Louis, the first attempt at a permanent settlement in Texas. La Salle was afterward killed by one of his own men. Others of his party died of smallpox and malarial fever, were killed by the Indians, or murdered each other in the diverting pastime of duelling. So thoroughly was the site of his fort ultimately lost, after the Spaniards burned it, that a college professor only rediscovered it in 1914. The French made other more permanent settlements in Louisiana and Alabama which later gave La Salle&#x2019;s claim to the Mississippi Valley real standing. Northeast of La Salle&#x2019;s Texas fort lived the Tejas (TaTias) Indians, who for some time harbored four of his unfortunate companions, and whose tribal designation finally grew into the name of Texas. Among these Indians Spanish priests, sent with the Spanish soldiers who destroyed Fort St. Louis, built a church on Texas soil, the first of a chain of mission church buildings, the beautiful ruins of some yet serving as attractions for tourists. Along with these missions established to Christianize the Indians, the Spaniards sometimes built forts, as at San Antonio, to hold the country against the French. In east Texas the forts at Nacogdoches and vicinity were abandoned, the first time because of the attacks of the French from Louisiana, and again in 1762, when France ceded to Spain her claim on all the region west of the Mississippi River. Seventeen years afterward the Spaniards again took possession of Nacogdoches. Nearly two hundred years of occupation had, by 1800, yielded only the net results of three permanent settlements in Texas,&#x2014;San Antonio, Nacogdoches, and Goliad, the latter being the legitimate offspring of Fort St. Louis. What barren results and of what insignificant influence on the development of Texas&#x2014;when it really started to grow!</p>
+					<p>When France regained the territory ceded to Spain and sold it to the United States in 1803, its western boundary was uncertain. In 1806 an agreement between General James Wilkinson, that picturesque rascal who commanded the United States army in the west, and General Herrera established a neutral strip between the Arroyo Hondo and the Sabine. This No Man&#x2019;s Land thereafter became a convenient and safe harborage for adventurers and desperadoes who in their expeditions into Texas brought back information about its advantages that made others covet its possession. Independent forays were organized by different groups of these restless characters in efforts to take Texas away from Spain, while about the same time the French pirate, Jean Lafitte, found Galveston Island a safe harborage. Lafitte and his pirates and the men that infested No Man&#x2019;s Land did two things for Texas: they introduced knowledge of it to the United States and they first gave it the bad name which added undue weight to a famous remark made by Phil Sheridan after the Civil War, while he was stationed in an arid locality in Texas.</p>
+				</Text>
+			</TextContent>
+			<TextContent>
+				<TextType>06</TextType>	<!-- Review quote -->
+				<ContentAudience>00</ContentAudience>	<!-- Any audience -->
+				<Text textformat="05"><p>&#x201c;An engaging, entertaining look at the history, culture, and geography of the state with the biggest ego.&#x201d;</p></Text>	<!-- Text of the review quote in XHTML -->
+				<SourceTitle>Houston Daily Post</SourceTitle>
+				<ContentDate>
+					<ContentDateRole>01</ContentDateRole>
+					<Date dateformat="00">19160212</Date>
+				</ContentDate>
+			</TextContent>
+			<TextContent>
+				<TextType>09</TextType>	<!-- Endorsement quote -->
+				<ContentAudience>00</ContentAudience>	<!-- Any audience -->
+				<Text textformat="05"><p>&#x201c;The authors captured the depth of Texas culture and the ethos of its people in great detail.&#x201d;</p></Text>	<!-- Text of the endorsement quote in XHTML -->
+				<TextAuthor>James Bowie</TextAuthor>
+			</TextContent>
+			<CitedContent>
+				<CitedContentType>01</CitedContentType> <!-- Review link -->
+				<ContentAudience>00</ContentAudience> <!-- Any audience -->
+				<SourceType>01</SourceType> <!-- Printed media -->
+				<SourceTitle>Texas Monthly</SourceTitle>
+				<CitationNote>Review of The Book of Texas by Stephen A. Austin</CitationNote>
+				<ResourceLink>http://www.example.com/reviews/1916/BookOfTexas</ResourceLink>
+				<ContentDate>
+					<ContentDateRole>01</ContentDateRole>
+					<Date dateformat="00">19160301</Date>
+				</ContentDate>
+			</CitedContent>
+		</CollateralDetail>
+		<PublishingDetail>
+			<Imprint> <!-- Imprint name -->
+				<ImprintIdentifier>
+					<ImprintIDType>01</ImprintIDType> <!-- Proprietary number -->
+					<IDTypeName>Firebrand Cloud Imprint Key</IDTypeName>
+					<IDValue>2732380</IDValue>
+				</ImprintIdentifier>
+				<ImprintName>Flashpoint Books</ImprintName>
+			</Imprint>
+			<Publisher> <!-- Publisher name -->
+				<PublishingRole>01</PublishingRole> <!-- 01=Publisher -->
+				<PublisherIdentifier>
+					<PublisherIDType>01</PublisherIDType> <!-- Proprietary number -->
+					<IDTypeName>Firebrand Cloud Publisher Key</IDTypeName>
+					<IDValue>70050</IDValue>
+				</PublisherIdentifier>
+				<PublisherName>Flashpoint Publishing</PublisherName>
+			</Publisher>
+			<PublishingStatus>04</PublishingStatus> <!-- Active -->
+			<PublishingDate>
+				<PublishingDateRole>01</PublishingDateRole> <!-- Pub Date -->
+				<Date dateformat="00">19160302</Date>
+			</PublishingDate>
+			<SalesRights>
+				<SalesRightsType>01</SalesRightsType> <!-- For sale with exclusive rights in the specified countries or territories -->
+				<Territory>
+					<CountriesIncluded>US</CountriesIncluded>
+				</Territory>
+			</SalesRights>
+			<ROWSalesRightsType>06</ROWSalesRightsType> <!-- Not for sale in the specified countries (because publisher does not hold rights in those countries or territories) -->
+		</PublishingDetail>
+		<RelatedMaterial>
+			<RelatedProduct> <!-- relating this book to its ebook counterpart -->
+				<ProductRelationCode>13</ProductRelationCode>
+				<ProductIdentifier>
+					<ProductIDType>15</ProductIDType>
+					<IDValue>9783141592658</IDValue> <!-- ISBN -->
+				</ProductIdentifier>
+			</RelatedProduct>
+			<RelatedProduct> <!-- Another book by the same author -->
+				<ProductRelationCode>22</ProductRelationCode>
+				<ProductIdentifier>
+					<ProductIDType>15</ProductIDType>
+					<IDValue>9780130001207</IDValue> <!-- ISBN -->
+				</ProductIdentifier>
+			</RelatedProduct>
+			<RelatedProduct> <!-- Another book by the same author -->
+				<ProductRelationCode>22</ProductRelationCode>
+				<ProductIdentifier>
+					<ProductIDType>15</ProductIDType>
+					<IDValue>9780130001214</IDValue> <!-- ISBN -->
+				</ProductIdentifier>
+			</RelatedProduct>
+			<RelatedProduct> <!-- Similar product -->
+				<ProductRelationCode>23</ProductRelationCode>
+				<ProductIdentifier>
+					<ProductIDType>15</ProductIDType>
+					<IDValue>9780123100436</IDValue> <!-- ISBN -->
+				</ProductIdentifier>
+			</RelatedProduct>
+			<RelatedProduct> <!-- Similar product -->
+				<ProductRelationCode>23</ProductRelationCode>
+				<ProductIdentifier>
+					<ProductIDType>15</ProductIDType>
+					<IDValue>9780123100740</IDValue> <!-- ISBN -->
+				</ProductIdentifier>
+			</RelatedProduct>
+		</RelatedMaterial>
+		<ProductSupply>
+			<SupplyDetail>
+				<Supplier>
+					<SupplierRole>01</SupplierRole> <!-- Publisher to retailers -->
+					<SupplierIdentifier>
+						<SupplierIDType>06</SupplierIDType> <!-- Global Location Number -->
+						<IDValue>8001234567897</IDValue>
+					</SupplierIdentifier>
+					<SupplierName>Flashpoint Books</SupplierName>
+					<TelephoneNumber>978-465-7755</TelephoneNumber>
+					<EmailAddress>sales@flashpointbooks.us</EmailAddress>
+				</Supplier>
+				<ReturnsConditions>
+					<ReturnsCodeType>02</ReturnsCodeType> <!-- BISAC Returnable Indicator code -->
+					<ReturnsCode>Y</ReturnsCode> <!-- Yes, returnable, full copies only -->
+				</ReturnsConditions>
+				<ProductAvailability datestamp="20160602">20</ProductAvailability> <!-- Available -->
+				<Price>
+					<PriceType>01</PriceType> <!-- RRP excluding tax - List 58 -->
+					<DiscountCoded>
+						<DiscountCodeType>02</DiscountCodeType> <!-- Proprietary discount code -->
+						<DiscountCode>ABCDE</DiscountCode>
+					</DiscountCoded>
+					<PriceAmount>25.99</PriceAmount>
+					<CurrencyCode>USD</CurrencyCode> <!-- List 96 -->
+					<PriceDate>
+						<PriceDateRole>14</PriceDateRole> <!-- From date -->
+						<Date dateformat="00">20160602</Date>
+					</PriceDate>
+				</Price>
+				<Price>
+					<PriceType>01</PriceType>
+					<DiscountCoded>
+						<DiscountCodeType>02</DiscountCodeType>
+						<DiscountCode>ABCDE</DiscountCode>
+					</DiscountCoded>
+					<PriceAmount>29.99</PriceAmount>
+					<CurrencyCode>GBP</CurrencyCode> <!-- British Pounds -->
+					<PriceDate>
+						<PriceDateRole>14</PriceDateRole>
+						<Date dateformat="00">20160602</Date>
+					</PriceDate>
+				</Price>
+			</SupplyDetail>
+		</ProductSupply>
+	</Product>
+
+	<Product> <!-- EPUB -->
+		<RecordReference>Flashpoint.9783141592658</RecordReference> <!-- ID of the record, not the product -->
+		<NotificationType>03</NotificationType> <!-- Notification confirmed on publication -->
+		<ProductIdentifier>
+			<ProductIDType>03</ProductIDType> <!-- GTIN-13 -->
+			<IDValue>9783141592658</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType> <!-- ISBN-13 -->
+			<IDValue>9783141592658</IDValue>
+		</ProductIdentifier>
+		<DescriptiveDetail>
+			<ProductComposition>00</ProductComposition>
+			<ProductForm>EA</ProductForm> <!-- Digital content delivered electronically -->
+			<ProductFormDetail>E101</ProductFormDetail> <!-- EPUB format -->
+			<ProductFormDetail>E200</ProductFormDetail> <!-- Reflowable -->
+			<ProductFormDetail>E202</ProductFormDetail> <!-- Readable Offline -->
+			<ProductFormDetail>E204</ProductFormDetail> <!-- Content was removed -->
+			<ProductFormFeature>
+				<ProductFormFeatureType>10</ProductFormFeatureType> <!-- E-publication format version -->
+				<ProductFormFeatureValue>101C</ProductFormFeatureValue> <!-- EPUB 3.0.1 -->
+			</ProductFormFeature>
+			<ProductFormFeature>
+				<ProductFormFeatureType>16</ProductFormFeatureType> <!-- E-publication format validator version -->
+				<ProductFormFeatureValue>4.0.1</ProductFormFeatureValue> <!-- EPUBCheck version number 4.0.1 -->
+				<ProductFormFeatureDescription>EPUBCheck</ProductFormFeatureDescription> <!-- Name of the tool used -->
+			</ProductFormFeature>
+			<ProductFormFeature>
+				<ProductFormFeatureType>16</ProductFormFeatureType> <!-- E-publication format validator version -->
+				<ProductFormFeatureDescription>FlightDeck</ProductFormFeatureDescription> <!-- Name of the tool used -->
+			</ProductFormFeature>
+			<ProductFormFeature>
+				<ProductFormFeatureType>09</ProductFormFeatureType> <!-- Accessibility Feature -->
+				<ProductFormFeatureValue>11</ProductFormFeatureValue> <!-- Table of Contents navigation -->
+			</ProductFormFeature>
+			<ProductFormFeature>
+				<ProductFormFeatureType>09</ProductFormFeatureType> <!-- Accessibility Feature -->
+				<ProductFormFeatureValue>13</ProductFormFeatureValue> <!-- Reading order -->
+			</ProductFormFeature>
+			<ProductFormFeature>
+				<ProductFormFeatureType>09</ProductFormFeatureType> <!-- Accessibility Feature -->
+				<ProductFormFeatureValue>14</ProductFormFeatureValue> <!-- alt text for images -->
+			</ProductFormFeature>
+			<ProductFormFeature>
+				<ProductFormFeatureType>09</ProductFormFeatureType> <!-- Accessibility Feature -->
+				<ProductFormFeatureValue>15</ProductFormFeatureValue> <!-- Full alternative descriptions (ARIA) -->
+			</ProductFormFeature>
+			<ProductFormFeature>
+				<ProductFormFeatureType>09</ProductFormFeatureType> <!-- Accessibility Feature -->
+				<ProductFormFeatureValue>19</ProductFormFeatureValue> <!-- Print-equivalent page numbering -->
+			</ProductFormFeature>
+			<ProductFormFeature>
+				<ProductFormFeatureType>09</ProductFormFeatureType> <!-- Accessibility Feature -->
+				<ProductFormFeatureValue>22</ProductFormFeatureValue> <!-- Language tagging provided -->
+			</ProductFormFeature>
+			<ProductFormFeature>
+				<ProductFormFeatureType>09</ProductFormFeatureType> <!-- Accessibility Feature -->
+				<ProductFormFeatureValue>96</ProductFormFeatureValue> <!-- Publisher’s web page for detailed accessibility information  -->
+				<ProductFormFeatureDescription>http://flashpointbooks.us/FlashpointBooks/Accessibility</ProductFormFeatureDescription>
+			</ProductFormFeature>
+			<ProductFormFeature>
+				<ProductFormFeatureType>09</ProductFormFeatureType> <!-- Accessibility Feature -->
+				<ProductFormFeatureValue>97</ProductFormFeatureValue> <!-- Compatibility testing description -->
+				<ProductFormFeatureDescription>Tested for accessibility in Readium Chrome Extension and JAWS screen reader on Windows, and with VoiceOver on Mac​</ProductFormFeatureDescription>
+			</ProductFormFeature>
+			<ProductFormFeature>
+				<ProductFormFeatureType>09</ProductFormFeatureType> <!-- Accessibility Feature -->
+				<ProductFormFeatureValue>97</ProductFormFeatureValue> <!-- Publisher contact for further accessibility information -->
+				<ProductFormFeatureDescription>accessibility@flashpointbooks.us</ProductFormFeatureDescription>
+			</ProductFormFeature>
+			<ProductFormDescription>EPUB</ProductFormDescription>
+			<PrimaryContentType>10</PrimaryContentType> <!-- Text (eye-readable) -->
+			<NoCollection/> <!-- Not part of a collection -->
+			<TitleDetail> <!-- Title of the book -->
+				<TitleType>01</TitleType>
+				<TitleElement>
+					<TitleElementLevel>01</TitleElementLevel>
+					<TitlePrefix>The</TitlePrefix>
+					<TitleWithoutPrefix>Book of Texas</TitleWithoutPrefix>
+				</TitleElement>
+			</TitleDetail>
+			<Contributor>
+				<SequenceNumber>1</SequenceNumber> <!-- First contributor -->
+				<ContributorRole>A01</ContributorRole> <!-- Author -->
+				<NameIdentifier>
+					<NameIDType>16</NameIDType>	<!-- ISNI -->
+					<IDValue>0000000083795662</IDValue>
+				</NameIdentifier>
+				<PersonName>John Avery Lomax</PersonName>
+				<PersonNameInverted>Lomax, John Avery</PersonNameInverted>
+				<TitlesBeforeNames>Mr.</TitlesBeforeNames>
+				<NamesBeforeKey>John Avery</NamesBeforeKey>
+				<KeyNames>Lomax</KeyNames>
+				<ContributorDate>
+					<ContributorDateRole>50</ContributorDateRole>	<!-- Born -->
+					<Date>18670923</Date>
+				</ContributorDate>
+				<ContributorDate>
+					<ContributorDateRole>51</ContributorDateRole>	<!-- Died -->
+					<Date>19480126</Date>
+				</ContributorDate>
+				<BiographicalNote><p>John Avery Lomax, folklorist, the son of James Avery and Susan Frances (Cooper) Lomax, was born on September 23, 1867, in Goodman, Mississippi. In August 1869 the Lomaxes set out for Texas in two covered wagons. They arrived in Bosque County before Christmas and settled on a farm north of Meridian. Young Lomax learned to do farm work and attended short terms of school between crops. As his home was located on a branch of the Chisholm Trail, he heard many cowboy ballads and other folk songs; before he was twenty, he began to write some of them down. In 1887 he had a year at Granbury College. With that training he taught for a year at Clifton and for six years at Weatherford College; he spent a summer in study at Eastman Business College at Poughkeepsie, New York, and three summers at Chautauqua. In 1895 he enrolled at the University of Texas, from which he graduated in 1897. He remained at the university as secretary to the president, as registrar, and as steward of the men&#x2019;s dormitory. In 1903&#x2013;04 he taught English at Texas A&amp;M. On June 9, 1904, he married Bess B. Brown; they had two sons and two daughters.</p><p>In 1906 Lomax received a scholarship at Harvard University, where Barrett Wendell and George Lyman Kittredge encouraged him to take up seriously the collection of western ballads he had begun as a youth. He collected by means of an appeal published in western newspapers and through his own vacation travel, supported by private funds from the two Harvard professors. In the back room of the White Elephant Saloon in Fort Worth he found cowhands who knew many stanzas of &#x201c;The Old Chisholm Trail.&#x201d; A Gypsy woman living in a truck near Fort Worth sang &#x201c;Git Along, Little Dogies.&#x201d; At Abilene an old buffalo hunter gave him the words and tune of &#x201c;Buffalo Skinners.&#x201d; In San Antonio in 1908 a black saloonkeeper who had been a trail cook sang &#x201c;Home on the Range.&#x201d; Lomax&#x2019;s first collection, <cite>Cowboy Songs and Other Frontier Ballads</cite>, was published in 1910.</p><p>From 1910 to 1925 Lomax was secretary of the Alumni Association, which became the Ex-Students Association of the University of Texas, except for two years, 1917&#x2013;19, when he was a bond salesman in Chicago. He was active in the fight to save the university from political domination by James E. Ferguson. From 1925 until 1931 he was vice president of Republic National Company in Dallas. His first wife died on May 8, 1931, and on July 21, 1934, he married Ruby R. Terrill. Lomax was one of the founders of the Texas Folklore Society and was president of the American Folklore Society.</p><p>In his collecting of folk songs, he traveled 200,000 miles and visited all but one of the forty-eight states. Often accompanied by his son, Alan, he visited prisons to record on phonograph disks the work songs and spirituals of black inmates. At the Angola prison farm in Louisiana, he encountered a talented black minstrel, Huddie Ledbetter, better known as Lead Belly. Upon Lead Belly&#x2019;s release from prison, Lomax took him on a tour in the north and recorded many of his songs. In 1919 he published <cite>Songs of the Cattle Trail and Cow Camp</cite>; it was republished in 1927 and in 1931. With his son, Lomax edited other collections: <cite>American Ballads and Folk Songs</cite> (1934), <cite>Negro Songs as Sung by Lead Belly</cite> (1936), <cite>Our Singing Country</cite> (1941), and <cite>Folk Song: U.S.A.</cite> (1947). In 1947 his autobiographical <cite>Adventures of a Ballad Hunter</cite> (1947) was awarded the Carr P. Collins prize as the best Texas book of the year by the Texas Institute of Letters. Beginning in 1933 Lomax was honorary curator of the Archive of Folksong at the Library of Congress, which he helped establish as the primary agency for preservation of American folksongs and culture. He died at Greenville, Mississippi, on January 26, 1948. He was inducted into the Western Music Hall of Fame in 2010.</p></BiographicalNote> 	<!-- Note the use of XHTML -->
+				<Website>
+					<WebsiteRole>09</WebsiteRole> <!-- Third-party website -->
+					<WebsiteDescription>Historical and biographical information about the author</WebsiteDescription>
+					<WebsiteLink>https://en.wikipedia.org/wiki/John_Lomax</WebsiteLink>
+				</Website>
+				<ContributorPlace>
+					<ContributorPlaceRelator>01</ContributorPlaceRelator> <!--Born in-->
+					<RegionCode>US-MS</RegionCode>
+				</ContributorPlace>
+				<ContributorPlace>
+					<ContributorPlaceRelator>02</ContributorPlaceRelator> <!--Died in-->
+					<RegionCode>US-MS</RegionCode>
+				</ContributorPlace>
+				<ContributorPlace>
+					<ContributorPlaceRelator>03</ContributorPlaceRelator> <!--Formerly resided in-->
+					<RegionCode>US-TX</RegionCode>
+				</ContributorPlace>
+			</Contributor>
+			<Contributor>
+				<SequenceNumber>2</SequenceNumber>	<!-- Second Contributor -->
+				<ContributorRole>A01</ContributorRole>	<!-- Author -->
+				<NameIdentifier>
+					<NameIDType>16</NameIDType>	<!--ISNI-->
+					<IDValue>0000000388284820</IDValue>
+				</NameIdentifier>
+				<PersonName>Harry Yandell Benedict</PersonName>
+				<PersonNameInverted>Benedict, Harry Yandell</PersonNameInverted>
+				<TitlesBeforeNames>Dr.</TitlesBeforeNames>
+				<NamesBeforeKey>Harry Yandell</NamesBeforeKey>
+				<KeyNames>Benedict</KeyNames>
+				<LettersAfterNames>Ph.D.</LettersAfterNames>
+				<ContributorDate>
+					<ContributorDateRole>50</ContributorDateRole>	<!-- Born -->
+					<Date>18691114</Date>
+				</ContributorDate>
+				<ContributorDate>
+					<ContributorDateRole>51</ContributorDateRole>	<!-- Died -->
+					<Date>19370510</Date>
+				</ContributorDate>
+				<ProfessionalAffiliation>
+					<ProfessionalPosition>President</ProfessionalPosition>
+					<Affiliation>University of Texas</Affiliation>
+				</ProfessionalAffiliation>
+				<BiographicalNote><p>Harry Yandell Benedict, tenth president of the University of Texas, was born in Louisville, Kentucky, on November 14, 1869, the son of Joseph and Adele (Peters) Benedict. In 1877 his mother, with Yandell and his brother Carl, moved to Texas to occupy land acquired during the Republic of Texas era by her grandfather, S. W. Peters, on the Brazos River in Young and Stephens counties; with them came Adele Benedict&#x2019;s father, H. J. Peters. Young Yandell was taught by his well-educated mother at home except for eight months when he attended schools in Graham and Weatherford. The family had a library of 1,000 books brought by the Peters family from Kentucky.</p><p>Benedict entered the University of Texas on examination in February 1889 and graduated with a B.S. with first honors in civil engineering in 1892. He received his M.A. in 1893. While completing his work at the university, he was a fellow (1891&#x2013;92) and a tutor (1892&#x2013;93) in pure mathematics. From 1893 to 1895 he served as an assistant at the McCormick Observatory at the University of Virginia. For the next three years (1895&#x2013;98), he studied at Harvard, where he received his Ph.D. in mathematical astronomy in 1898. He was in charge ad interim of mathematics and astronomy at Vanderbilt University in 1899. In 1900 he married Ada Stone of Henderson, Texas. They had two sons.</p><p>Benedict joined the faculty of the University of Texas at the beginning of the 1899&#x2013;1900 session as instructor of mathematics. He rose rapidly in rank until he became professor of applied mathematics and astronomy in 1907. He served as director of extension from 1909 to 1911. In 1911 he was made dean of the College of Arts and Sciences, a position he kept until 1927, when he was elected president. From 1913 until 1920 he also served as dean of men. He was president from 1927 until his death. During his presidency an extensive building program added fifteen new buildings to the campus. His dream was to see the completion of the University of Texas McDonald Observatory, but he died two years before it opened. He wrote <cite>Book of Texas</cite> with John A. Lomax (1916), <cite>Unified Mathematics</cite> with two other mathematicians (1915), <cite>A Source Book of Legislative History of the University of Texas</cite> (1917), <cite>Peregrinusings</cite> (1924), and numerous articles.</p><p>He was a fellow of the American Association for the Advancement of Science, a president of the Texas Academy of Scienceqv, and a member of the American Mathematical Society, the American Astronomical Society, the National Education Association, the Texas State Teachers Association, the Society for the Promotion of Engineering Education, the American Statistical Association, Phi Beta Kappa, Tau Beta Pi, the Fortnightly Club, Town and Gown, the Rotary Club, the University Club, and Sigma Alpha Epsilon fraternity. He was a Democrat. Benedict was granted honorary doctor of laws degrees by Baylor in 1920 and Southwestern in 1929. He died suddenly of a cerebral hemorrhage on May 10, 1937. At the time, he was working on a history of the University of Texas; the unfinished manuscript is in the university archives. Benedict was buried in Oakwood Cemetery. Benedict Hall, on the UT campus, named in his honor, was dedicated in April 1953.</p></BiographicalNote>
+				<Website>
+					<WebsiteRole>09</WebsiteRole> <!-- Third-party website -->
+					<WebsiteDescription>Biographical information about the author</WebsiteDescription>
+					<WebsiteLink>http://www.utexas.edu/faculty/council/2000-2001/memorials/AMR/Benedict/benedict.html</WebsiteLink>
+				</Website>
+				<ContributorPlace>
+					<ContributorPlaceRelator>01</ContributorPlaceRelator> <!--Born in-->
+					<RegionCode>US-KY</RegionCode>
+				</ContributorPlace>
+				<ContributorPlace>
+					<ContributorPlaceRelator>02</ContributorPlaceRelator> <!--Died in-->
+					<RegionCode>US-TX</RegionCode>
+				</ContributorPlace>
+				<ContributorPlace>
+					<ContributorPlaceRelator>03</ContributorPlaceRelator> <!--Formerly resided in-->
+					<RegionCode>US-TX</RegionCode>
+				</ContributorPlace>
+			</Contributor>
+			<NoEdition/>
+			<Language>
+				<LanguageRole>01</LanguageRole>
+				<LanguageCode>eng</LanguageCode>
+			</Language>
+			<Extent>
+				<ExtentType>08</ExtentType> <!-- print equivalent page count -->
+				<ExtentValue>537</ExtentValue>
+				<ExtentUnit>03</ExtentUnit>
+			</Extent>
+			<Extent>
+				<ExtentType>22</ExtentType> <!-- downloadable file size: 8.3 MB -->
+				<ExtentValue>8.3</ExtentValue>
+				<ExtentUnit>19</ExtentUnit>
+			</Extent>
+			<Illustrated>02</Illustrated> <!-- Yes -->
+			<NumberOfIllustrations>89</NumberOfIllustrations>
+			<IllustrationsNote>89 black-and-white photos on separate plate inserts, 12 maps, 25 tables, 2 charts</IllustrationsNote> <!-- full text, under 200 characters -->
+			<AncillaryContent>
+				<AncillaryContentType>23</AncillaryContentType> <!-- List 25 - Plates, black and white -->
+				<Number>33</Number>
+			</AncillaryContent>
+			<AncillaryContent>
+				<AncillaryContentType>01</AncillaryContentType> <!-- Illustrations, black and white -->
+				<Number>89</Number>
+			</AncillaryContent>
+			<AncillaryContent>
+				<AncillaryContentType>07</AncillaryContentType> <!-- Tables, black and white -->
+				<Number>25</Number>
+			</AncillaryContent>
+			<AncillaryContent>
+				<AncillaryContentType>14</AncillaryContentType> <!-- Maps -->
+				<Number>12</Number>
+			</AncillaryContent>
+			<AncillaryContent>
+				<AncillaryContentType>25</AncillaryContentType> <!-- Index -->
+			</AncillaryContent>
+			<Subject>
+				<MainSubject/>
+				<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier> <!-- BISAC Subject Category -->
+				<SubjectCode>HIS036130</SubjectCode> <!-- HISTORY  / United States/State and Local/Southwest (AZ, NM, OK, TX) -->
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier> <!-- BISAC Subject Category -->
+				<SubjectCode>HIS052000</SubjectCode> <!-- HISTORY  / Historical Geography -->
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier> <!-- BISAC Subject Category -->
+				<SubjectCode>POL020000</SubjectCode> <!-- POLITICAL SCIENCE  / American Government/State -->
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier> <!-- BISAC Subject Category -->
+				<SubjectCode>NAT049000</SubjectCode> <!-- NATURE  / Regional -->
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>93</SubjectSchemeIdentifier> <!-- Thema Subject Category -->
+				<SubjectCode>NHK</SubjectCode> <!-- History of the Americas -->
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>93</SubjectSchemeIdentifier> <!-- Thema Subject Category -->
+				<SubjectCode>NHTP</SubjectCode> <!-- Historical geography -->
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>93</SubjectSchemeIdentifier> <!-- Thema Subject Category -->
+				<SubjectCode>NHTR</SubjectCode> <!-- National liberation & independence, post-colonialism -->
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>94</SubjectSchemeIdentifier> <!-- Thema geographical qualifier -->
+				<SubjectCode>1KBB-US-SWT</SubjectCode> <!-- Texas -->
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>96</SubjectSchemeIdentifier> <!-- Thema time period qualifier -->
+				<SubjectCode>3MN</SubjectCode> <!-- 19th century, c 1800 to c 1899 -->
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>20</SubjectSchemeIdentifier> <!-- Keywords -->
+				<SubjectHeadingText>Texas History;Stephen F. Austin;William B. Travis;Texas population density;The Alamo</SubjectHeadingText>
+			</Subject>
+			<Audience>
+				<AudienceCodeType>01</AudienceCodeType> <!-- 01 Points to List 28 - ONIX audience codes -->
+				<AudienceCodeValue>01</AudienceCodeValue> <!-- General Trade -->
+			</Audience>
+			<AudienceRange>
+				<AudienceRangeQualifier>11</AudienceRangeQualifier> <!-- US school grade range -->
+				<AudienceRangePrecision>03</AudienceRangePrecision> <!-- From -->
+				<AudienceRangeValue>9</AudienceRangeValue> <!-- grade 9 -->
+				<AudienceRangePrecision>04</AudienceRangePrecision> <!-- To -->
+				<AudienceRangeValue>12</AudienceRangeValue> <!-- Grade 12 -->
+			</AudienceRange>
+			<AudienceRange>
+				<AudienceRangeQualifier>17</AudienceRangeQualifier> <!-- Interest age, years -->
+				<AudienceRangePrecision>03</AudienceRangePrecision> <!-- From -->
+				<AudienceRangeValue>18</AudienceRangeValue> <!-- age 18 -->
+			</AudienceRange>
+			<AudienceRange>
+				<AudienceRangeQualifier>18</AudienceRangeQualifier> <!-- Reading age, years -->
+				<AudienceRangePrecision>03</AudienceRangePrecision> <!-- From -->
+				<AudienceRangeValue>15</AudienceRangeValue> <!-- age 15 -->
+			</AudienceRange>
+			<Complexity>
+				<ComplexitySchemeIdentifier>06</ComplexitySchemeIdentifier> <!-- Lexile measure -->
+				<ComplexityCode>1370L</ComplexityCode>
+			</Complexity>
+		</DescriptiveDetail>
+		<CollateralDetail>
+			<TextContent>
+				<TextType>03</TextType> <!-- Description -->
+				<ContentAudience>00</ContentAudience>
+				<Text><p>The Book of Texas is an in-depth exploration of the great state, including details on its history, demographics, geography, climate, agriculture, manufacturing, industry, and more. The text contains a variety of illustrations, charts, and graphs, along with photos of key locations and people in the state.</p><p>Written for the general reader, this book makes no pretence to avoid colloquialisms or to be serious throughout. Jokes and stories that throw light upon Texas and her people have been freely inserted. But nothing of a humorous flavor has been put in for its own sake only, because, as far as may be accomplished within the narrow compass of a single volume, an earnest effort has here been made to describe Texas. As a consequence, the following pages abound in statements of fact. This book is less than a scientific and detailed treatise; on the other hand, let us hope, it is more than a collection of random remarks made by superficial and facetious observers.</p><p>That perfect truth has been attained in stating facts is not to be expected. The subject is so vast and varied, the sources of information are so numerous and scattered, and in cases so unreliable, that mistakes and omissions are practically unavoidable. Doubtless many specific errors may be discovered in what follows; doubtless some matters have been given too much space and others too little. In spite of defects all too obvious, in spite of having been written from the biased standpoint of Texans, this book has been prepared with very careful attention to Things as They Are. It is possible to hope, therefore, that Texas has been described, inadequately of course, but with reasonable faithfulness.</p></Text>
+			</TextContent>
+			<TextContent>
+				<TextType>02</TextType> <!-- Short Description -->
+				<ContentAudience>00</ContentAudience>
+				<Text><p>The Book of Texas is an in-depth exploration of the great state, including details on its history, demographics, geography, climate, agriculture, manufacturing, industry, and more. The text contains a variety of illustrations, charts, and graphs, along with photos of key locations and people in the state.</p></Text>
+			</TextContent>
+			<TextContent>
+				<TextType>12</TextType> <!-- Author Bios -->
+				<ContentAudience>00</ContentAudience>
+				<Text><p>John Avery Lomax (September 23, 1867 &#x2013; January 26, 1948) was an American teacher, a pioneering musicologist, and a folklorist who did much for the preservation of American folk music.</p><p>Harry Yandell Benedict (November 14, 1869 &#x2013; May 10, 1937) was a professor of applied mathematics and astronomy at the University of Texas and later became the university&#x2019;s tenth president.</p></Text>
+			</TextContent>
+			<TextContent>
+				<TextType>04</TextType>	<!-- Table of Contents -->
+				<ContentAudience>00</ContentAudience>	<!-- Any audience -->
+				<Text textformat="05">
+					<ol>
+						<li>Preface</li>
+						<li>Introduction</li>
+						<li>Part I. The Annals of a State
+						<ol>
+							<li>I. Under Spain and France</li>
+							<li>II. The Coming of the People</li>
+							<li>III. Peaceful Development</li>
+						</ol></li>
+						<li>Part II. The People
+						<ol>
+							<li>I. Their Number and Destribution</li>
+							<li>II. Their Nationality and Characteristics</li>
+						</ol></li>
+						<li>Part III. The Country
+						<ol>
+							<li>The Land</li>
+							<li>The Climate</li>
+							<li>The Wild Life</li>
+						</ol></li>
+						<li>Part IV. The Work of the People with the Products of the Land
+						<ol>
+							<li>Occupations</li>
+							<li>Agriculture</li>
+							<li>King Cotton</li>
+							<li>From Corn to Cauliflowers</li>
+							<li>Texas Cattle in Free-grass Days</li>
+							<li>From Horses to Bees</li>
+							<li>Turning the Waters</li>
+							<li>Mining</li>
+							<li>Manufacturing</li>
+							<li>Transportation</li>
+							<li>The Trade of the Cities</li>
+							<li>Exports and Imports</li>
+							<li>The Material Wealth of Texas</li>
+						</ol></li>
+						<li>Part V. Progress and Its Problems
+						<ol>
+							<li>Banking</li>
+							<li>The Granger Movement</li>
+							<li>Farm Tenantry</li>
+							<li>Community Life</li>
+							<li>The Cities and Towns</li>
+							<li>Education</li>
+							<li>The Churches</li>
+							<li>The Newspapers</li>
+							<li>Union Labor and Life Insurance</li>
+							<li>Prohibition and Local Option</li>
+							<li>Women&#x2019;s Organizations</li>
+							<li>The Case of the Railroads</li>
+							<li>Politics and Political Leaders</li>
+						</ol></li>
+						<li>Appendix</li>
+					</ol>
+				</Text>
+			</TextContent>
+			<TextContent>
+				<TextType>14</TextType> <!-- Excerpt -->
+				<ContentAudience>00</ContentAudience>
+				<Text><h1>Chapter I. Under Spain and France</h1>
+					<p>One hundred years ago there was scarcely a handful of white men in that section of North America now known as Texas, and these were not permanent settlers. The entire region was virgin soil populated only by Indians and a few Spanish soldiers, and overrun by wild cattle, mustang ponies, countless herds of buffalo, deer, antelope, wolves, and other wild animals. The passage of a century has converted the vast region west of the Mississippi into states, Texas alone containing four and a half millions of people and seven billions of wealth. To describe the raw material, the people, and the land; to picture the transformation that has been wrought in Texas during this time, particularly in its important and dramatic aspects; to trace, however inadequately, in small compass the result of the action of the people upon the land and its resources, and the results of the action of the people upon themselves until they have won some individuality and definable characteristics, is what the writers of this volume have undertaken. It is the old and well-known story of man either conquering or adapting himself to the forces of nature.</p>
+					<p>Conventional history is too often inclined to concern itself mainly with dates, wars, and with the names and careers of military and political leaders, together with incidents which have little or nothing to do with the real development of a country. Texas, for example, is perhaps no whit different from what it would have been had La Salle not explored it in early times and died within its confines, or had the Spaniards Cabeza de Vaca and Coronado not wandered over its trackless plains in the early years of the seventeenth century. Even such men as Stephen F. Austin and Sam Houston, however important their place in history, did not make Texas. The destiny of a state is seldom embodied in one man. In the first place, the state is what it is because of the natural conditions that have existed; and, in the second place, because of the general character of the people who have settled within its borders.</p>
+					<p>The records of any historian, however impartial, must nevertheless of necessity seem a form of hero worship. In the history of Texas many individuals stand out above their fellows as superior in bravery, in resourcefulness, and in other qualities of leadership. However hard we try to set down the bare facts, the halo of romance creeps into the story and glorifies such names as La Salle, the restless Frenchman; Coronado, the enterprising Spanish gold hunter; Stephen F. Austin, the patient, unselfish father of a new republic, who died early in life through exposure in her service; Travis, the commander of the group of heroes in the Alamo; General Sam Houston, brave and impassioned leader of men, in defeat taciturn as an Indian; Mirabeau B. Lamar, gifted orator and friend of enlightenment through public education; O. M. Roberts, the &#x201c;Old Alcalde&#x201d; and &#x201c;Pay as You Go&#x201d; Governor, Chief Justice of the Supreme Court, law professor in the University of Texas; John H. Reagan, Postmaster-General of the Confederate Cabinet, Member of Congress, U. S. Senator, first head of the Texas Railroad Commission; James Stephen Hogg, Texas&#x2019; greatest Governor, progressive statesman, and friend of the people; George W. Brackenridge, Henry Rosenberg, and William M. Rice, philanthropists; Henry Exall, evangel of scientific farming; T. V. Munson, honored by the French Government for achievement in grape culture. To the memory of the men who founded colleges in places where the Indian war whoop yet sounded; to those who preached the gospel, who healed the sick, who framed the laws, who cleared the land and blazed the way for the millions who now live between the Rio Grande and Red rivers&#x2014;romance and story and song and drama will yet arise, fit and commensurate.</p>
+					<p>The events that have affected the lives of a people, the difficulties they have overcome, the deeds they have wrought, the battles they have fought, the institutions they have set up&#x2014;all these help us to know what the people are. The annals of a people faithfully recorded make the past live again and show us, if not the people themselves, the results of their actions. So, poring over the story of their brave deeds and peering behind the framework of governmental and social machinery they have invented, inherited, or modified; the record of their war with nature and their clashes with each other, we may come to know something of the real people. The Earth and the People: what the Earth held in store and what the People did with its riches and to each other,&#x2014;these are the vital elements in history, the moving pictures of the past thrown on the screen that enable those of the present to vision what has gone before. Let us see first how Texas was possessed by the white race and by what means the peoples were welded into that semblance of unity which is termed a state.</p>
+					<p>Some of the incidents are mentioned partly because they occurred in Texas territory and not because they influenced the life of the state as it now is. In setting them out we shall consciously emphasize the particular contributions that Texas seems to have made to the sum total of human progress. The general growth of the state has been, on the whole, not unlike that of other Western commonwealths. It does, however, possess some individual characteristics. For example, six different flags have waved over its fortunes, one of them the Lone Star while Texas was for nearly ten years a free and independent republic; her independence was won by a successfully waged revolution; the state has maintained until now a citizen soldiery known as the Texas Rangers. The Railroad Commission, a widely copied homestead law, the commission form of government, a lavish land and bonded endowment for the free public school system, are other illustrative examples of noteworthy contributions. So the story shall be interlarded with references to what Texas has originated, that the narrative may not lose its declared intention of singing the glories of the state.</p>
+					<p>Within thirty-five years after Columbus discovered America the first white man set foot on Texas soil. He belonged to an exploring party of Spaniards, Conquistadores, men of like mold with Cortez and his companions, who sailed from Cuba and were wrecked on the coast off Galveston. Other Spanish gold-hunting bands traversed portions of Texas during the next century and a half, but made no efforts to establish permanent settlements. In 1682 La Salle, a Frenchman, coming down from Canada to the mouth of the Mississippi River, set up a claim to all the land (Louisiana) drained by the river. Later driven west in a storm while he was trying to reach the mouth of the Mississippi from France some of his ships were lost, and the others returned to France. He thereupon built Fort St. Louis, the first attempt at a permanent settlement in Texas. La Salle was afterward killed by one of his own men. Others of his party died of smallpox and malarial fever, were killed by the Indians, or murdered each other in the diverting pastime of duelling. So thoroughly was the site of his fort ultimately lost, after the Spaniards burned it, that a college professor only rediscovered it in 1914. The French made other more permanent settlements in Louisiana and Alabama which later gave La Salle&#x2019;s claim to the Mississippi Valley real standing. Northeast of La Salle&#x2019;s Texas fort lived the Tejas (TaTias) Indians, who for some time harbored four of his unfortunate companions, and whose tribal designation finally grew into the name of Texas. Among these Indians Spanish priests, sent with the Spanish soldiers who destroyed Fort St. Louis, built a church on Texas soil, the first of a chain of mission church buildings, the beautiful ruins of some yet serving as attractions for tourists. Along with these missions established to Christianize the Indians, the Spaniards sometimes built forts, as at San Antonio, to hold the country against the French. In east Texas the forts at Nacogdoches and vicinity were abandoned, the first time because of the attacks of the French from Louisiana, and again in 1762, when France ceded to Spain her claim on all the region west of the Mississippi River. Seventeen years afterward the Spaniards again took possession of Nacogdoches. Nearly two hundred years of occupation had, by 1800, yielded only the net results of three permanent settlements in Texas,&#x2014;San Antonio, Nacogdoches, and Goliad, the latter being the legitimate offspring of Fort St. Louis. What barren results and of what insignificant influence on the development of Texas&#x2014;when it really started to grow!</p>
+					<p>When France regained the territory ceded to Spain and sold it to the United States in 1803, its western boundary was uncertain. In 1806 an agreement between General James Wilkinson, that picturesque rascal who commanded the United States army in the west, and General Herrera established a neutral strip between the Arroyo Hondo and the Sabine. This No Man&#x2019;s Land thereafter became a convenient and safe harborage for adventurers and desperadoes who in their expeditions into Texas brought back information about its advantages that made others covet its possession. Independent forays were organized by different groups of these restless characters in efforts to take Texas away from Spain, while about the same time the French pirate, Jean Lafitte, found Galveston Island a safe harborage. Lafitte and his pirates and the men that infested No Man&#x2019;s Land did two things for Texas: they introduced knowledge of it to the United States and they first gave it the bad name which added undue weight to a famous remark made by Phil Sheridan after the Civil War, while he was stationed in an arid locality in Texas.</p>
+				</Text>
+			</TextContent>
+			<TextContent>
+				<TextType>06</TextType>	<!-- Review quote -->
+				<ContentAudience>00</ContentAudience>	<!-- Any audience -->
+				<Text textformat="05"><p>&#x201c;An engaging, entertaining look at the history, culture, and geography of the state with the biggest ego.&#x201d;</p></Text>	<!-- Text of the review quote in XHTML -->
+				<SourceTitle>Houston Daily Post</SourceTitle>
+			</TextContent>
+			<CitedContent>
+				<CitedContentType>01</CitedContentType> <!-- Review -->
+				<ContentAudience>00</ContentAudience> <!-- Any audience -->
+				<SourceType>01</SourceType> <!-- Printed media -->
+				<SourceTitle>Texas Monthly</SourceTitle>
+				<CitationNote>Review of The Book of Texas by Stephen A. Austin</CitationNote>
+				<ResourceLink>http://www.example.com/reviews/1916/BookOfTexas</ResourceLink>
+				<ContentDate>
+					<ContentDateRole>01</ContentDateRole>
+					<Date dateformat="00">19160302</Date>
+				</ContentDate>
+			</CitedContent>
+		</CollateralDetail>
+		<PublishingDetail>
+			<Imprint> <!-- Imprint name -->
+				<ImprintIdentifier>
+					<ImprintIDType>01</ImprintIDType> <!-- Proprietary number -->
+					<IDTypeName>Firebrand Cloud Imprint Key</IDTypeName>
+					<IDValue>2732380</IDValue>
+				</ImprintIdentifier>
+				<ImprintName>Flashpoint Books</ImprintName>
+			</Imprint>
+			<Publisher> <!-- Publisher name -->
+				<PublishingRole>01</PublishingRole> <!-- 01=Publisher -->
+				<PublisherIdentifier>
+					<PublisherIDType>01</PublisherIDType> <!-- Proprietary number -->
+					<IDTypeName>Firebrand Cloud Publisher Key</IDTypeName>
+					<IDValue>70050</IDValue>
+				</PublisherIdentifier>
+				<PublisherName>Flashpoint Publishing</PublisherName>
+			</Publisher>
+			<PublishingStatus>04</PublishingStatus> <!-- Active -->
+			<PublishingDate>
+				<PublishingDateRole>01</PublishingDateRole> <!-- Pub Date -->
+				<Date dateformat="00">20160302</Date>
+			</PublishingDate>
+			<PublishingDate>
+				<PublishingDateRole>11</PublishingDateRole> <!-- Date of first publication of the Work -->
+				<Date dateformat="05">1916</Date>
+			</PublishingDate>
+			<SalesRights>
+				<SalesRightsType>01</SalesRightsType> <!-- For sale with exclusive rights in the specified countries or territories -->
+				<Territory>
+					<RegionsIncluded>WORLD</RegionsIncluded>
+					<CountriesExcluded>CN</CountriesExcluded> <!--China-->
+				</Territory>
+			</SalesRights>
+			<SalesRights>
+				<SalesRightsType>06</SalesRightsType> <!-- Not for sale in the specified countries (because publisher does not hold rights in those countries or territories) -->
+				<Territory>
+					<CountriesIncluded>CN</CountriesIncluded> <!--China-->
+				</Territory>
+			</SalesRights>
+		</PublishingDetail>
+		<RelatedMaterial>
+			<RelatedProduct> <!-- relating this book to its ebook counterpart -->
+				<ProductRelationCode>13</ProductRelationCode>
+				<ProductIdentifier>
+					<ProductIDType>15</ProductIDType>
+					<IDValue>9783141592658</IDValue> <!-- ISBN -->
+				</ProductIdentifier>
+			</RelatedProduct>
+		</RelatedMaterial>
+		<ProductSupply>
+			<SupplyDetail>
+				<Supplier>
+					<SupplierRole>01</SupplierRole> <!-- Publisher to retailers -->
+					<SupplierIdentifier>
+						<SupplierIDType>06</SupplierIDType> <!-- Global Location Number -->
+						<IDValue>8001234567897</IDValue>
+					</SupplierIdentifier>
+					<SupplierName>Flashpoint Books</SupplierName>
+					<TelephoneNumber>978-465-7755</TelephoneNumber>
+					<EmailAddress>sales@flashpointbooks.us</EmailAddress>
+				</Supplier>
+				<ReturnsConditions>
+					<ReturnsCodeType>02</ReturnsCodeType> <!-- BISAC Returnable Indicator code -->
+					<ReturnsCode>N</ReturnsCode> <!-- Yes, returnable, full copies only -->
+				</ReturnsConditions>
+				<ProductAvailability datestamp="20160602">20</ProductAvailability> <!-- Available -->
+				<Price>
+					<PriceType>01</PriceType> <!-- RRP excluding tax - List 58 -->
+					<DiscountCoded>
+						<DiscountCodeType>02</DiscountCodeType> <!-- Proprietary discount code -->
+						<DiscountCode>ABCDE</DiscountCode>
+					</DiscountCoded>
+					<PriceAmount>9.99</PriceAmount>
+					<CurrencyCode>USD</CurrencyCode> <!-- List 96 -->
+					<PriceDate>
+						<PriceDateRole>14</PriceDateRole> <!-- From date -->
+						<Date dateformat="00">20160602</Date>
+					</PriceDate>
+				</Price>
+				<Price>
+					<PriceType>01</PriceType>
+					<DiscountCoded>
+						<DiscountCodeType>02</DiscountCodeType>
+						<DiscountCode>ABCDE</DiscountCode>
+					</DiscountCoded>
+					<PriceAmount>9.99</PriceAmount>
+					<CurrencyCode>GBP</CurrencyCode> <!-- British Pounds -->
+					<PriceDate>
+						<PriceDateRole>14</PriceDateRole>
+						<Date dateformat="00">20160602</Date>
+					</PriceDate>
+				</Price>
+			</SupplyDetail>
+		</ProductSupply>
+	</Product>
+
+
+</ONIXMessage>
