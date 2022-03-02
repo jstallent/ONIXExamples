@@ -789,14 +789,19 @@
 				<Text><p>The Book of Texas is an in-depth exploration of the great state, including details on its history, demographics, geography, climate, agriculture, manufacturing, industry, and more. The text contains a variety of illustrations, charts, and graphs, along with photos of key locations and people in the state.</p><p>Written for the general reader, this book makes no pretence to avoid colloquialisms or to be serious throughout. Jokes and stories that throw light upon Texas and her people have been freely inserted. But nothing of a humorous flavor has been put in for its own sake only, because, as far as may be accomplished within the narrow compass of a single volume, an earnest effort has here been made to describe Texas. As a consequence, the following pages abound in statements of fact. This book is less than a scientific and detailed treatise; on the other hand, let us hope, it is more than a collection of random remarks made by superficial and facetious observers.</p><p>That perfect truth has been attained in stating facts is not to be expected. The subject is so vast and varied, the sources of information are so numerous and scattered, and in cases so unreliable, that mistakes and omissions are practically unavoidable. Doubtless many specific errors may be discovered in what follows; doubtless some matters have been given too much space and others too little. In spite of defects all too obvious, in spite of having been written from the biased standpoint of Texans, this book has been prepared with very careful attention to Things as They Are. It is possible to hope, therefore, that Texas has been described, inadequately of course, but with reasonable faithfulness.</p></Text>
 			</TextContent>
 			<TextContent>
+				<TextType>10</TextType> <!-- Promotional Headline -->
+				<ContentAudience>00</ContentAudience>
+				<Text><b>Comprehensive, engaging, and informative! The most important book about Texas ever written!</b></Text>
+			</TextContent>
+			<TextContent>
 				<TextType>02</TextType> <!-- Short Description -->
 				<ContentAudience>00</ContentAudience>
-				<Text><p>The Book of Texas is an in-depth exploration of the great state, including details on its history, demographics, geography, climate, agriculture, manufacturing, industry, and more. The text contains a variety of illustrations, charts, and graphs, along with photos of key locations and people in the state.</p></Text>
+				<Text><p>An exploration of the history, geography, climate, and people of Texas.</p></Text>
 			</TextContent>
 			<TextContent>
 				<TextType>12</TextType> <!-- Author Bios -->
 				<ContentAudience>00</ContentAudience>
-				<Text><p>John Avery Lomax (September 23, 1867 &#x2013; January 26, 1948) was an American teacher, a pioneering musicologist, and a folklorist who did much for the preservation of American folk music.</p><p>Harry Yandell Benedict (November 14, 1869 &#x2013; May 10, 1937) was a professor of applied mathematics and astronomy at the University of Texas and later became the university&#x2019;s tenth president.</p></Text>
+				<Text><p><b>John Avery Lomax</b> (September 23, 1867 &#x2013; January 26, 1948) was an American teacher, a pioneering musicologist, and a folklorist who did much for the preservation of American folk music.</p><p><b>Harry Yandell Benedict</b> (November 14, 1869 &#x2013; May 10, 1937) was a professor of applied mathematics and astronomy at the University of Texas and later became the university&#x2019;s tenth president.</p></Text>
 			</TextContent>
 			<TextContent>
 				<TextType>04</TextType>	<!-- Table of Contents -->
@@ -875,20 +880,31 @@
 				<TextType>06</TextType>	<!-- Review quote -->
 				<ContentAudience>00</ContentAudience>	<!-- Any audience -->
 				<Text textformat="05"><p>&#x201c;An engaging, entertaining look at the history, culture, and geography of the state with the biggest ego.&#x201d;</p></Text>	<!-- Text of the review quote in XHTML -->
-				<SourceTitle>Houston Daily Post</SourceTitle>
-			</TextContent>
-			<CitedContent>
-				<CitedContentType>01</CitedContentType> <!-- Review -->
-				<ContentAudience>00</ContentAudience> <!-- Any audience -->
-				<SourceType>01</SourceType> <!-- Printed media -->
-				<SourceTitle>Texas Monthly</SourceTitle>
-				<CitationNote>Review of The Book of Texas by Stephen A. Austin</CitationNote>
-				<ResourceLink>http://www.example.com/reviews/1916/BookOfTexas</ResourceLink>
-				<ContentDate>
+				<ReviewRating>
+					<Rating>4.5</Rating>	<!-- New in ONIX 3.0.3 -->
+					<RatingLimit>5</RatingLimit>
+					<RatingUnits>stars</RatingUnits>
+				</ReviewRating>
+				<TextAuthor>Hazel Volk</TextAuthor>	<!-- Author -->
+				<TextSourceDescription textformat="05">Literary editor of <cite>Texas Monthly</cite></TextSourceDescription>
+				<SourceTitle>Texas Monthly</SourceTitle>	<!-- Source -->
+				<ContentDate>	<!-- Date Published -->
 					<ContentDateRole>01</ContentDateRole>
-					<Date dateformat="00">19160302</Date>
+					<Date dateformat="00">20210302</Date>
 				</ContentDate>
-			</CitedContent>
+			</TextContent>
+			<TextContent>
+				<TextType>09</TextType>	<!-- Endorsement -->
+				<ContentAudience>00</ContentAudience>	<!-- Any audience -->
+				<Text textformat="05"><p>&#x201c;This book changed my entire perspective on the history of Texas. The descriptions are engaging, the history is spot on, and the graphs and charts helped drive home the information without being overbearing.&#x201d;</p></Text>	<!-- Text of the endorsement in XHTML -->
+				<TextAuthor>Stephen F. Austin</TextAuthor>	<!-- Author -->
+				<TextSourceDescription textformat="05">Author of <cite>Fighting for Independence: How the Lone Star State Found Freedom</cite></TextSourceDescription>	<!-- New in ONIX 3.0.7 -->
+			</TextContent>
+			<TextContent>
+				<TextType>06</TextType>	<!-- All in one -->
+				<ContentAudience>00</ContentAudience>	<!-- Any audience -->
+				<Text textformat="05"><p>&#x201c;An engaging, entertaining look at the history, culture, and geography of the state with the biggest ego.&#x201d; &#x2014; Hazel Volk, Literary Editor, <cite>Texas Monthly</cite></p><p>&#x201c;This book changed my entire perspective on the history of Texas. The descriptions are engaging, the history is spot on, and the graphs and charts helped drive home the information without being overbearing.&#x201d; &#x2014; Stephen F. Austin, Author of <cite>Fighting for Independence: How the Lone Star State Found Freedom</cite></p></Text>
+			</TextContent>
 		</CollateralDetail>
 		<PublishingDetail>
 			<Imprint> <!-- Imprint name -->
